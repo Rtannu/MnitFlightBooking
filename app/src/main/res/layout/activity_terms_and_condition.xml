@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roushan.mnitflightbookiing.TermsAndCondition">
+
+<ScrollView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/terms"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Terms and Condition"
+            android:textSize="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:text="This page (together with the documents referred to on it) tells you the terms on which you may make use of our  mobile applications (our apps), and any other
+            this serivices whic are availble on our  apps .please read these Terms of use carefully before you start to use our app .
+            By using our app ,you indicate that you accepts these Terms of Use and that you agree to abide by them.if you donot agree to these Terms of Use ,please refrain from using our apps "
+            android:layout_below="@+id/ram"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Accessing our apps"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Access to our apps is permitted on temporary basis ,and we reserve the right to withdraw or amend the service that we provide on our apps without notice (see below).we will be not be liable if for any reason our app is unavailable at any time or for any period.
+
+you are responsible for making all arrangments necessary for you to have access to our site and apps.you are also responsible for ensuring that all persons who access our site and apps through your internet connection are aware of these terms,and that they comply with them "
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text=" What to include in a Terms and Conditions "
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" Here are few examples:
+
+1. all condition ,warranties and others terms which might otherwise be implied by statute,common law or the law of equity whether relation to the accuracy of any material displayed on our apps to the acessibility of our site or otherwise howsoever
+
+2. A Termination clause will inform that users’ accounts on your website and mobile app or users’ access to your website and mobile (if users can’t have an account with you) can be terminated in case of abuses or at your sole discretion.
+3. A Governing Law will inform users which laws govern the agreement. This should the country in which your company is headquartered or the country from which you operate your website and mobile app.
+4. A Links To Other Web Sites clause will inform users that you are not responsible for any third party websites that you link to. This kind of clause will generally inform users that they are responsible for reading and agreeing (or disagreeing) with the Terms and Conditions or Privacy Policies of these third parties.
+5. If your website or mobile app allows users to create content and make that content public to other users, a Content section will inform users that they own the rights to the content they have created.
+The “Content” clause usually mentions that users must give you (the website or mobile app developer) a license so that you can share this content on your website/mobile app and to make it available to other users.
+
+Because the content created by users is public to other users, a DMCA notice clause (or Copyright Infringement ) section is helpful to inform users and copyright authors that, if any content is found to be a copyright infringement, you will respond to any DMCA takedown notices received and you will take down the content.
+6. A Limit What Users Can Do clause can inform users that by agreeing to use your service, they’re also agreeing to not do certain things. This can be part of a very long and thorough list in your Terms and Conditions agreements so as to encompass the most amount of negative uses.
+Here’s how 500px lists its prohibited activities:"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+</RelativeLayout>

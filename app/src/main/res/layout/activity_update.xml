@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roushan.mnitflightbookiing.Update">
+
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:fontFamily="casual"
+        android:text="Update Your Profile"
+
+        android:textColor="#ffff00"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView50"
+        android:layout_marginTop="65dp"
+        android:background="#454545"
+        android:drawableLeft="@drawable/account"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#ffff00" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="#ffff00"
+        android:hint="password"
+        android:background="#454545"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPersonName"
+        android:text=""
+
+        android:layout_below="@+id/editText16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="92dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="#ffff00"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/email"
+        android:text=""
+        android:hint="Email Adderss"
+        android:background="#454545"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView50"
+        android:layout_alignEnd="@+id/textView50"
+        android:layout_alignLeft="@+id/textView50"
+        android:layout_alignStart="@+id/textView50" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:layout_below="@+id/editText17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView50"
+        android:layout_alignStart="@+id/textView50"
+        android:layout_below="@+id/textView50"
+        android:layout_marginTop="21dp"
+        android:text="" />
+</RelativeLayout>

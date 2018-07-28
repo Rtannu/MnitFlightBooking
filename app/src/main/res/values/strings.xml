@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Flight Booking</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="source">
+        <item>Source</item>
+        <item>gaya</item>
+        <item>patna</item>
+        <item>jaipur</item>
+        <item>delhi</item>
+        <item>mumbai</item>
+        <item>kolkata</item>
+        <item>ranchi</item>
+        <item>chennai</item>
+        <item>bangalore</item>
+        <item>panjab</item>
+        <item>hydrabad</item>
+        <item>pune</item>
+    </string-array>
+    <string-array name="destination">
+        <item>Destination</item>
+        <item>jaipur</item>
+        <item>patna</item>
+        <item>jaipur</item>
+        <item>delhi</item>
+        <item>mumbai</item>
+        <item>kolkata</item>
+        <item>ranchi</item>
+        <item>chennai</item>
+        <item>bangalore</item>
+        <item>punjab</item>
+        <item>hydrabad</item>
+        <item>pune</item>
+    </string-array>
+    <string-array name="classes">
+        <item>economy</item>
+        <item>business</item>
+        <item>premimum economy</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_help_and_support">HelpAndSupport</string>
+    <string name="title_activity_show_search">ShowSearch</string>
+</resources>

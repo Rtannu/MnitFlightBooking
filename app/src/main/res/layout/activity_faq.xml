@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="45dp"
+    tools:context="com.example.roushan.mnitflightbookiing.Faq">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="1000dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:text="MnitFlightBooking is not a travel agent and
+does not sell tickets directly"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="76dp"
+                android:text="we are travel comparison website dedicated to bringing you the best deals.once you have found what you are looking for we direct you to the relevant company to make your booking."
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="145dp"
+                android:text=" BOOKINGS"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <View
+                android:id="@+id/left"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="170dp"
+                android:background="@android:color/darker_gray"
+                android:layout_alignRight="@+id/imageButton"
+                android:layout_alignEnd="@+id/imageButton" />
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="188dp"
+                android:layout_margin="9dp"
+                android:layout_below="@+id/left"
+                android:text="i didn't get a confirmation email for my booking .what should i do ?" />
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="240dp"
+                android:background="@android:color/darker_gray"
+                android:layout_alignRight="@+id/imageButton"
+                android:layout_alignEnd="@+id/imageButton" />
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view3"
+                android:layout_margin="7dp"
+                android:text="i didn't get a confirmation email for my booking .what should i do ?" />
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView39"
+                android:background="@android:color/darker_gray"
+                android:layout_alignRight="@+id/imageButton"
+                android:layout_alignEnd="@+id/imageButton" />
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view4"
+                android:text="how can i change or cancel my booings"
+
+                android:layout_margin="7dp"/>
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView40"
+                android:background="@android:color/darker_gray"
+                android:layout_alignRight="@+id/imageButton"
+                android:layout_alignEnd="@+id/imageButton" />
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view5"
+                android:text="i don't know who i booked my fights with .
+how do i find out?"
+
+                android:layout_margin="7dp"/>
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView41"
+                android:background="@android:color/darker_gray"
+                android:layout_alignRight="@+id/imageButton"
+                android:layout_alignEnd="@+id/imageButton" />
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view6"
+                android:text="i am not sure if my booking went through .
+how do i find out?"/>
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView42"
+                android:background="@android:color/darker_gray"
+                android:layout_alignRight="@+id/imageButton"
+                android:layout_alignEnd="@+id/imageButton" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+
+        android:fontFamily="cursive"
+        android:text="Wel Come"
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textSize="45dp" />
+    <ImageView
+        android:id="@+id/image"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

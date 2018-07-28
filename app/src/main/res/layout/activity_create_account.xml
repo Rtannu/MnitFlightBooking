@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roushan.mnitflightbookiing.CreateAccount">
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/face"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/google"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_marginTop="16dp"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton" />
+    <View
+        android:id="@+id/left"
+        android:layout_width="170dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/darker_gray"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton" />
+    <View
+        android:id="@+id/right"
+        android:layout_width="170dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/darker_gray"
+        />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp"
+        android:text="Sign up with (recommended)" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textAlignment="center"
+
+        android:layout_alignTop="@+id/left"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:textAlignment="center"
+        android:text="Sign up with your email"
+        android:layout_below="@+id/left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:fontFamily="casual"
+        android:text="Create an Account"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView21"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_alignRight="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:padding="3dp"
+        android:text="Already have an account?"
+        android:layout_below="@+id/button6"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Log in."
+        android:textColor="#ffff00"
+        android:layout_alignBaseline="@+id/textView36"
+        android:layout_alignBottom="@+id/textView36"
+        android:layout_alignRight="@+id/textView19"
+        android:onClick="process"
+        android:layout_alignEnd="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By signing up,you agree to our FlighBooking"
+        android:layout_below="@+id/textView36"
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms of Use"
+
+        android:textColor="#ffff00"
+        android:layout_alignLeft="@+id/textView43"
+        android:layout_alignStart="@+id/textView43"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:onClick="process"
+        android:layout_below="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignRight="@+id/button6"
+        android:layout_below="@+id/textView43"
+
+        android:textColor="#ffff00"
+        android:text="Privacy Policy"
+        android:layout_toRightOf="@+id/textView36"
+        android:onClick="process"
+        android:layout_toEndOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="and"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView43"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

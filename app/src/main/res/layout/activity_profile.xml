@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roushan.mnitflightbookiing.Profile">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp"
+        android:fontFamily="casual"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:textColor="#ffff00"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="#ffff00"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:text="ABOUT ME"
+        android:layout_below="@+id/textView54"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="name"
+        android:textColor="#ffff00"
+        android:text=""
+        android:drawableLeft="@drawable/account"
+        android:textAlignment="center"
+        android:background="#454545"
+        android:layout_marginBottom="34dp"
+        android:layout_above="@+id/textView52"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MY SECURITY DETAILS"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView51"
+        android:layout_alignStart="@+id/textView51" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        android:textColor="#ffff00"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/password"
+        android:background="#454545"
+        android:text=""
+        android:layout_above="@+id/button10"
+        android:layout_marginBottom="26dp"
+        android:layout_alignLeft="@+id/editText15"
+        android:layout_alignStart="@+id/editText15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:text="want to delete your account?"
+        android:layout_alignLeft="@+id/textView52"
+        android:layout_alignStart="@+id/textView52"
+        android:layout_toLeftOf="@+id/textView57"
+        android:layout_toStartOf="@+id/textView57" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editText14"
+        android:background="#454545"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:textColor="#ffff00"
+        android:inputType="textPersonName"
+        android:hint="Email address"
+        android:textAlignment="center"
+
+        android:drawableLeft="@drawable/email"
+        android:layout_alignRight="@+id/editText13"
+        android:layout_alignEnd="@+id/editText13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView49"
+        android:layout_marginTop="13dp"
+        android:text="these are your personal account detaiss"
+        android:textAlignment="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView53"
+        android:layout_toEndOf="@+id/textView53"
+        android:textColor="#ffff00"
+        android:layout_toRightOf="@+id/textView53"
+        android:text="Delete" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView53"
+        android:layout_alignLeft="@+id/textView53"
+        android:layout_alignStart="@+id/textView53"
+        android:text="want to update your account?"
+        android:textAlignment="center"
+
+        android:layout_toLeftOf="@+id/textView55"
+        android:layout_toStartOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:textColor="#ffff00"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_above="@+id/textView53"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="49dp" />
+
+</RelativeLayout>
